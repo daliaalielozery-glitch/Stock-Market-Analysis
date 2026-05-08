@@ -1,6 +1,46 @@
-📈 Stock Market Analysis & Visualization SystemA High-Performance Financial Dashboard for Real-Time Market Intelligence.💎 Project Core HighlightsThis system is not just a simple script; it is a modular web application designed to bridge the gap between complex financial data and user-friendly visualization.Engineered for Accuracy: Uses the yfinance API to pull live market data directly from global exchanges.Advanced Visuals: Implementation of Interactive Plotly Charts allowing users to zoom, hover, and analyze price actions.Automated Reporting: A custom-built PPT Generation Engine that transforms raw data into professional presentation slides with one click.🛠️ Technical ImplementationComponentTechnologyProfessional PurposeInterfaceStreamlitRapid deployment of secure, responsive web UI.Data EnginePandasHigh-speed data cleaning and Moving Average (MA) calculations.VisualizationPlotlyGenerating dynamic Candlestick and Area charts.Reportingpython-pptxAutomated object-oriented slide construction.🚀 Execution & Deployment GuideTo ensure the system runs without environment conflicts, follow these precise steps:1️⃣ Initial SetupClone the repository and navigate to the project root:Bashgit clone https://github.com/daliaalielozery-glitch/Stock-Market-Analysis.git
+📈 Stock Market Analysis & Visualization System
+
+A web-based financial dashboard for real-time stock market analysis, interactive visualization, and automated reporting.
+
+🚀 Features
+📊 Real-time stock market data using yfinance
+📈 Interactive Plotly charts (Candlestick & Area Charts)
+📉 Moving Average (MA) analysis
+📑 Automated PowerPoint report generation
+⚡ Fast and responsive Streamlit interface
+🛠️ Tech Stack
+Technology	Purpose
+Streamlit	Web dashboard
+Pandas	Data processing
+Plotly	Interactive charts
+yfinance	Market data API
+python-pptx	PPT report generation
+📂 Project Structure
+Stock-Market-Analysis/
+│
+├── stock_market_app.py
+├── pptx_generator.py
+├── requirements.txt
+└── README.md
+⚙️ Installation
+Clone the Repository
+git clone https://github.com/daliaalielozery-glitch/Stock-Market-Analysis.git
+
 cd Stock-Market-Analysis
-2️⃣ Dependency SynchronizationInstall the verified library versions to prevent "Module Not Found" errors:Bashpip install -r requirements.txt
-3️⃣ Launching the DashboardStart the Streamlit server using the Python module flag (the most stable method):Bashpython -m streamlit run stock_market_app.py
-4️⃣ Document GenerationTo produce the project presentation file:Bashpython pptx_generator.py
-📂 Project Architecturestock_market_app.py: The main entry point; handles UI state and data logic.pptx_generator.py: The reporting module; contains the logic for automated slide design.requirements.txt: Defined environment specifications.👨‍🏫 Academic ContextSupervised by: Dr.Mohammed KhalafDeveloper: Dalia Ali & TeamStatus: Production Ready ✅
+Install Dependencies
+pip install -r requirements.txt
+▶️ Run the Application
+python -m streamlit run stock_market_app.py
+📄 Generate PowerPoint Report
+python pptx_generator.py
+👨‍💻 Developed By
+
+Dalia Ali & Team
+
+Supervisor
+
+Dr. Mohammed Khalaf
+
+✅ Status
+
+Production Ready 🚀
